@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  background: darkcyan;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.container p{
+    padding: 10px;
+}
+.input {
+  width: 100%;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+.payment {
+  font-weight: 600;
+  font-size: 20px;
+}
